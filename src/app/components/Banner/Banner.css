@@ -1,0 +1,42 @@
+.banner {
+    height: 400px;
+    background: #0F0C12;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, var(--light), var(--secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+.banner .button-container{
+    padding-top: 30px;
+}
+@media (max-width: 768px) {
+    .banner h2 {
+        padding-top: 2.5rem;
+    }
+.banner .button-container{
+    padding-bottom:60px;
+}
+}
