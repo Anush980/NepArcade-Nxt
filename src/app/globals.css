@@ -1,6 +1,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #6c5ce7;
+  --secondary: #a29bfe;
+  --dark: #2d3436;
+  --light: #f5f6fa;
+  --accent: #00cec9;
+  --danger: #d63031;
+  --success: #00b894;
+  --bg: #1a1a2e;
+  --header-bg: #16213e;
+  --menu-bg: #071c57ea;
+  --hover-bg: rgba(142, 140, 140, 0.599);
+  --hero-bg: #0F0C12;
+  --bt-color: #027e7c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +26,7 @@
 html,
 body {
   max-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -28,6 +42,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
