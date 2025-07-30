@@ -57,6 +57,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Search Box - Visible on desktop, hidden on mobile */}
+                <div className="right">
                 <div className="search">
                     <div className="search-container">
                         <input
@@ -85,6 +86,7 @@ export default function Navbar() {
                     <div className="account-container">
                         AS
                     </div>
+                </div>
                 </div>
             </div>
         </nav>

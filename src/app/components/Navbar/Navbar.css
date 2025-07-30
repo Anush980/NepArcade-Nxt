@@ -79,11 +79,14 @@
     font-weight: 600;
 }
 
+.right{
+    display: flex;
+}
 /* Search Box */
 .search {
     flex-grow: 1;
     max-width: 200px;
-    margin: 0 1.5rem;
+    margin: 2px 1.6rem;
 }
 
 .search-container input {
@@ -110,7 +113,9 @@
     gap: 0.5rem;
     cursor: pointer;
     padding: 0.5rem 1rem;
+    margin-right: 1.5rem;
     border-radius: 15px;
+    margin-top: 5px;
 }
 
 .fullscreen-btn:hover {
