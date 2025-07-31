@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import { use } from "react";
 import Banner from "./components/Banner/Banner";
+import SideBar from "./components/SideBar/SideBar";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
   <>
   <Navbar/>
 <Banner/>
+<SideBar/>
   </>
   );
 }

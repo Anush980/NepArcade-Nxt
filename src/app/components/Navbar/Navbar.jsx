@@ -20,7 +20,8 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 {/* Mobile Hamburger Button */}
-                <div
+               <div className="left">
+                 <div
                     className={`hamburger ${menuOpen ? "open" : ""}`}
                     onClick={toggleMenu}
                     aria-label="Toggle menu"
@@ -34,6 +35,7 @@ export default function Navbar() {
                 <div className="logo">
                     <h1>NepArcade</h1>
                 </div>
+               </div>
 
                 {/* Navigation Links */}
                 <div className={`links ${menuOpen ? "mobile-menu open" : "mobile-menu"}`}>
