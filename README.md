@@ -1,4 +1,4 @@
-# 🎮 NepArcade-Nxt
+# 🎮 NepArcade
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat-square)
 ![Under Development](https://img.shields.io/badge/status-under--development-orange?style=flat-square)
