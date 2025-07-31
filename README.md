@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 NepArcade-Nxt
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat-square)
+![Under Development](https://img.shields.io/badge/status-under--development-orange?style=flat-square)
+![Made With Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 
-First, run the development server:
+A modern arcade-style game hub built with **Next.js** – fast, fun, and designed for the Nepali gaming community 🇳🇵.
+
+> 🚧 **This project is currently under active development. Stay tuned for more updates!**
+
+---
+
+## 🖼️ Preview
+
+![NepArcade Preview](githubBanner.png)
+
+---
+
+## 🚀 Features (Planned)
+
+- 🎯 Sleek and responsive UI with Next.js 14
+- 🕹️ Launch and host multiple browser-based arcade games
+- 📈 Player stats & high score tracking (coming soon)
+- 👤 User accounts and leaderboards
+- 🌙 Light/Dark theme toggle
+- 📱 Mobile-first design
+- 🇳🇵 Nepali-inspired UI/UX design
+
+---
+
+## 🛠️ Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### 📦 Setup
+
+```bash
+git clone https://github.com/Anush980/NepArcade-Nxt.git
+cd NepArcade-Nxt
+npm install
+```
+#### ▶️ Run in Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open localhost to view it in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧑‍💻 Author
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Developed by Anush Shrestha
+  - 📍 From Nepal
+  -  🎓 BCA Student
+  - 💻 Passionate Web & App Developer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Want to contribute? Feel free to:
 
-To learn more about Next.js, take a look at the following resources:
+     🐛 Report bugs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+     🌟 Suggest features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+     📦 Submit pull requests
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  - Fork the repo.
+  - Make your changes.
+  - Submit a PR 🚀
