@@ -11,6 +11,7 @@
     padding: 2rem;
     position: relative;
     overflow: hidden;
+    margin-top: 50px;
 }
 
 .banner h2 {
@@ -29,14 +30,22 @@
     margin-bottom: 2rem;
     opacity: 0.9;
 }
-.banner .button-container{
+
+.banner .button-container {
     padding-top: 30px;
 }
+
 @media (max-width: 768px) {
-    .banner h2 {
-        padding-top: 2.5rem;
+    .banner {
+        margin-top: 60px;
     }
-.banner .button-container{
-    padding-bottom:60px;
-}
+
+    .banner h2 {
+        padding-top: 4rem;
+    }
+
+    .banner .button-container {
+       padding-top: 2px;
+        padding-bottom: 60px;
+    }
 }
