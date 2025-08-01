@@ -7,8 +7,8 @@ export default function ComponentName({image,gameTitle,gameDescription}) {
         <div className="game-card">
             <div className="game-image">
                 <img
-                    src="Resources/Game-logo/bhagchalLogo.png"
-                    style="width: 160px; margin-left: 22%"
+                    src={image}
+                    // style="width: 160px; margin-left: 22%"
                 />
             </div>
             <div className="game-info">
