@@ -2,22 +2,19 @@
 import Button from '../Button/Button';
 import './GameCard.css';
 
-export default function ComponentName({image,gameTitle,gameDescription}) {
+export default function GameCard({ image, gameTitle, gameDuration, playerCount }) {
     return (
         <div className="game-card">
             <div className="game-image">
-                <img
-                    src={image}
-                    // style="width: 160px; margin-left: 22%"
-                />
+                <img src={image} alt={gameTitle} className="game-image-content" />
             </div>
             <div className="game-info">
-                <h3 className="game-title">Bhagchal</h3>
+                <h3 className="game-title">{gameTitle}</h3>
                 <div className="game-description">
-                    <span>⏱️ 30 min</span>
-                    <span>👥 2 players</span>
+                    <span>⏱️ {gameDuration}</span>
+                    <span>👥 {playerCount}</span>
                 </div>
-                <Button label='Play Now' varient='primary'/>
+                <Button label='Play Now' varient="exploreBtn" />
             </div>
         </div>
     );
