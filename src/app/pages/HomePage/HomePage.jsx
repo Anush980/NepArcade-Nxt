@@ -4,6 +4,7 @@ import Banner from "@/app/components/Banner/Banner";
 import GameList from "@/app/components/GameList/GameList";
 import SideBar from "@/app/components/SideBar/SideBar";
 import './HomePage.css';
+import Title from "@/app/components/Title/Title";
 
 export default function HomePage() {
     return (
@@ -14,6 +15,7 @@ export default function HomePage() {
                     <SideBar />
                 </aside>
                 <main className="main-content">
+                    <Title label='🔥 Trending Games'/>
                     <GameList />
                 </main>
             </div>

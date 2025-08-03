@@ -1,5 +1,6 @@
 .sidebar-section {
     margin-bottom: 2rem;
+    text-align: start;
 }
 
 .sidebar-section h3 {
@@ -30,12 +31,7 @@
 }
 
 .sidebar-section span:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    opacity: 1;
-}
-
-.sidebar-section span:hover {
-    background-color: var(--primary);
+    background-color: rgba(36, 142, 212, 0.172);
     opacity: 1;
 }
 
@@ -48,8 +44,3 @@
     gap: 1rem;
 }
 
-.section-title::after {
-    content: "";
-    flex: 1;
-    height: 2px;
-}

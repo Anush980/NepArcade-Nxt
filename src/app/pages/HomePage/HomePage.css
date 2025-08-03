@@ -1,7 +1,6 @@
 .homepage {
     display: flex;
-    padding: 1rem;
-    gap: 1.5rem;
+ 
 }
 
 /* Sidebar */
@@ -13,6 +12,7 @@
 /* Main content  */
 .main-content {
     flex: 1;
+    background-color: var(--menu-bg);
 }
 
 

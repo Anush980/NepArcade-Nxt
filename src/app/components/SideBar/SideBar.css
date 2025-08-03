@@ -3,10 +3,12 @@
     background-color: #0f3460;
     padding: 1.5rem;
     position: sticky;
-    top: 80px;
-    height: calc(100vh - 80px);
+    top: 70px;
+    height: calc(100vh - 50px);
     overflow-y: auto;
+     overflow-x: hidden;
 }
+
 
 @media (max-width: 1024px) {
     .sidebar {

@@ -21,7 +21,7 @@ const gamecardData = [
         gameDuration: '15–30 min',
         playerCount: '2–4 players'
     },
-     {
+    {
         id: 4,
         image: 'test',
         gameTitle: 'Bhagchal',
@@ -42,7 +42,9 @@ const gamecardData = [
         gameTitle: 'TicTacToe',
         gameDuration: '15–30 min',
         playerCount: '2–4 players'
-    }
+    },
+
+
 ];
 
 export default gamecardData;
