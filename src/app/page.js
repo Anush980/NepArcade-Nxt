@@ -7,8 +7,8 @@ import Login from "./pages/Auth/Login/Login";
 export default function Home() {
   return (
   <>
-  {/* <Navbar/> */}
-  {/* <HomePage/> */}
+  {/* <Navbar/>
+  <HomePage/> */}
 <Login/>
   </>
   );

@@ -1,7 +1,7 @@
 'use client';
 import './Login.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { signIn } from 'next-auth/react';
+
 
 export default function Login() {
     return (
@@ -15,7 +15,7 @@ export default function Login() {
                             <h3 className='greeting'>Welcome Back!</h3>
                             <span className='guide'>Enter your credentials to sign in</span>
                         </div>
-                        <form>
+                        <form method='POST' >
                             <input type='email' placeholder='Enter your Email' />
                             <input type='password' placeholder='Enter your password' />
                             <input type='submit' value='Sign In' className='button' />
@@ -25,11 +25,11 @@ export default function Login() {
                         </div>
                         <div className="direct-login">
                             <div className="service">
-                                <button className="service-google" aria-label="Google">
-                                    <img src="/Google.png" alt="Google logo" className="logo" />Google </button>
+                                <button className="service-google" onClick={() => signIn('google')}>
+                                    <img src="/Google.png" alt="Google logo" className="auth-logo" />Google </button>
 
-                                <button className="service-github" aria-label="Sign in with GitHub">
-                                    <img src="/Github.png" alt="GitHub logo" className="logo" />GitHub</button>
+                                <button className="service-github" onClick={() => signIn('github')}>
+                                    <img src="/Github.png" alt="GitHub logo" className="auth-logo" />GitHub</button>
                             </div>
                         </div>
                     </div>

@@ -20,22 +20,22 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 {/* Mobile Hamburger Button */}
-               <div className="left">
-                 <div
-                    className={`hamburger ${menuOpen ? "open" : ""}`}
-                    onClick={toggleMenu}
-                    aria-label="Toggle menu"
-                >
-                    <span />
-                    <span />
-                    <span />
-                </div>
+                <div className="left">
+                    <div
+                        className={`hamburger ${menuOpen ? "open" : ""}`}
+                        onClick={toggleMenu}
+                        aria-label="Toggle menu"
+                    >
+                        <span />
+                        <span />
+                        <span />
+                    </div>
 
-                {/* Logo */}
-                <div className="logo">
-                    <h1>NepArcade</h1>
+                    {/* Logo */}
+                    <div className="logo">
+                        <h1>NepArcade</h1>
+                    </div>
                 </div>
-               </div>
 
                 {/* Navigation Links */}
                 <div className={`links ${menuOpen ? "mobile-menu open" : "mobile-menu"}`}>
@@ -60,35 +60,35 @@ export default function Navbar() {
 
                 {/* Search Box - Visible on desktop, hidden on mobile */}
                 <div className="right">
-                <div className="search">
-                    <div className="search-container">
-                        <input
-                            type="text"
-                            placeholder="Search"
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                        />
+                    <div className="search">
+                        <div className="search-container">
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                            />
+                        </div>
                     </div>
-                </div>
 
-                {/* Fullscreen Button */}
-                <div className="fullscreen">
-                    <button className="fullscreen-btn">
+                    {/* Fullscreen Button */}
+                    <div className="fullscreen">
+                        <button className="fullscreen-btn">
 
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
-                </svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                            </svg>
 
-                        Fullscreen
-                    </button>
-                </div>
-
-                {/* User Account */}
-                <div className="account">
-                    <div className="account-container">
-                        AS
+                            Fullscreen
+                        </button>
                     </div>
-                </div>
+
+                    {/* User Account */}
+                    <div className="account">
+                        <div className="account-container">
+                            AS
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
