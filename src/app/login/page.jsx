@@ -16,7 +16,7 @@ export default function Login() {
                             <span className='guide'>Enter your credentials to sign in</span>
                         </div>
                         <form method='POST' >
-                            <input type='email' placeholder='Enter your Email' />
+                            <input type='text' placeholder='Enter your Username' />
                             <input type='password' placeholder='Enter your password' />
                             <input type='submit' value='Sign In' className='button' />
                         </form>
