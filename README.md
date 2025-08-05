@@ -12,8 +12,9 @@ A modern arcade-style game hub built with **Next.js** – fast, fun, and designe
 ---
 
 ## 🖼️ Preview
-
+## HomePage
 ![NepArcade Preview](./public/preview1.png)
+## LoginPage
 ![NepArcade Preview](./public/preview2.png)
 
 ---
