@@ -3,10 +3,9 @@
     background-color: #0f3460;
     padding: 1.5rem;
     position: sticky;
-    top: 70px;
-    height: calc(100vh - 50px);
     overflow-y: auto;
-     overflow-x: hidden;
+    max-height: 150vh;
+    overflow-x: hidden;
 }
 
 

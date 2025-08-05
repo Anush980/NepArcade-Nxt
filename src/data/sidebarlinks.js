@@ -7,6 +7,27 @@ const sidebarlinks = [
         ],
     },
     {
+        title: "🥊 Ation Games",
+        links: [
+            { label: "CyberPunk", href: "/categories/action/cyberpunk" },
+            { label: "Gun shooter", href: "/categroies/action/gunShooter" }
+        ],
+    },
+    {
+        title: "🧠 ind Games",
+        links: [
+            { label: "Chess", href: "/categories/mind/chess" },
+            { label: "Coding", href: "/categroies/mind/coding" }
+        ],
+    },
+    {
+        title: "🟡 Online Friends",
+        links: [
+            { label: "Friends", href: "/categories/board/bhagchal" },
+            { label: "Bot", href: "/categories/board/budhichal" }
+        ],
+    },
+    {
         title: "🥊 Action Games",
         links: [
             { label: "CyberPunk", href: "/categories/action/cyberpunk" },
@@ -20,8 +41,22 @@ const sidebarlinks = [
             { label: "Coding", href: "/categroies/mind/coding" }
         ],
     },
-      {
-        title: "🟡 Online Friends",
+    {
+        title: "🟡 OnlinFriends",
+        links: [
+            { label: "Friends", href: "/categories/board/bhagchal" },
+            { label: "Bot", href: "/categories/board/budhichal" }
+        ],
+    },
+    {
+        title: "🧠 Mid Games",
+        links: [
+            { label: "Chess", href: "/categories/mind/chess" },
+            { label: "Coding", href: "/categroies/mind/coding" }
+        ],
+    },
+    {
+        title: "🟡 Online Frends",
         links: [
             { label: "Friends", href: "/categories/board/bhagchal" },
             { label: "Bot", href: "/categories/board/budhichal" }
