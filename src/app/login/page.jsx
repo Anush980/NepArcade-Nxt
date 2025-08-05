@@ -1,5 +1,5 @@
 'use client';
-import './Login.css';
+import './login.css';
 import { signIn } from 'next-auth/react';
 
 
@@ -25,10 +25,10 @@ export default function Login() {
                         </div>
                         <div className="direct-login">
                             <div className="service">
-                                <button className="service-google" onClick={() => signIn('google')}>
+                                <button className="service-google" onClick={() => signIn('google', { callbackUrl: '/homepage' })}>
                                     <img src="/Google.png" alt="Google logo" className="auth-logo" />Google </button>
 
-                                <button className="service-github" onClick={() => signIn('github')}>
+                                <button className="service-github" onClick={() => signIn('github', { callbackUrl: '/homepage' })}>
                                     <img src="/Github.png" alt="GitHub logo" className="auth-logo" />GitHub</button>
                             </div>
                         </div>

@@ -3,13 +3,15 @@
 import Banner from "@/app/components/Banner/Banner";
 import GameList from "@/app/components/GameList/GameList";
 import SideBar from "@/app/components/SideBar/SideBar";
-import './HomePage.css';
+import './homepage.css';
 import Title from "@/app/components/Title/ListTitle";
 import Footer from "@/app/components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function HomePage() {
     return (
         <>
+        <Navbar/>
             <Banner />
             <div className="homepage">
                 <aside className="sidebar">

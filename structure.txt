@@ -1,0 +1,54 @@
+.
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── public
+│   ├── bhagchalLogo.png
+│   ├── file.svg
+│   ├── gameBanner.jpg
+│   ├── githubBanner.png
+│   ├── Github.png
+│   ├── globe.svg
+│   ├── Google.png
+│   ├── ludoLogo.png
+│   ├── next.svg
+│   ├── tictactoeLogo.png
+│   ├── vercel.svg
+│   ├── webLogo.svg
+│   └── window.svg
+├── README.md
+├── src
+│   ├── app
+│   │   ├── api
+│   │   │   └── auth
+│   │   ├── components
+│   │   │   ├── Banner
+│   │   │   ├── Button
+│   │   │   ├── Footer
+│   │   │   ├── GameCard
+│   │   │   ├── GameList
+│   │   │   ├── Navbar
+│   │   │   ├── SideBar
+│   │   │   └── Title
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   ├── page.module.css
+│   │   ├── pages
+│   │   │   ├── Auth
+│   │   │   └── homepage
+│   │   ├── Resources
+│   │   │   ├── bhagchalLogo.png
+│   │   │   ├── ludoLogo.png
+│   │   │   └── tictactoeLogo.png
+│   │   └── webLogo.png
+│   └── data
+│       ├── banner.js
+│       ├── gamecardData.js
+│       └── sidebarlinks.js
+└── structure.txt
+
+20 directories, 32 files
