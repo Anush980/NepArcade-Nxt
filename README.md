@@ -11,6 +11,11 @@ A modern arcade-style game hub built with **Next.js** – fast, fun, and designe
 
 ---
 
+## 🌐 Live Preview
+
+👉 [Live Preview](https://neparcades.vercel.app/)  
+
+---
 ## 🖼️ Preview
 ## HomePage
 ![NepArcade Preview](./public/preview1.png)
