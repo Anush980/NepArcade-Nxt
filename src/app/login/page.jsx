@@ -1,9 +1,32 @@
 'use client';
+import { useState } from 'react';
 import './login.css';
 import { signIn } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
 
 
 export default function Login() {
+    const router = useRouter();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const res = await fetch('/api/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+            alert('Login successful!');
+            router.push('/homepage');
+        } else {
+            alert(data.message || 'Login failed');
+        }
+    };
     return (
         <>
             <div className="login-container">
@@ -15,9 +38,9 @@ export default function Login() {
                             <h3 className='greeting'>Welcome Back!</h3>
                             <span className='guide'>Enter your credentials to sign in</span>
                         </div>
-                        <form method='POST' >
-                            <input type='text' placeholder='Enter your Username' />
-                            <input type='password' placeholder='Enter your password' />
+                        <form method='POST' onSubmit={handleSubmit} >
+                            <input type='text' placeholder='Enter your Username' value={email} onChange={(e) => setEmail(e.target.value)} />
+                            <input type='password' placeholder='Enter your password' value={password} onChange={(e) => setPassword(e.target.value)} />
                             <input type='submit' value='Sign In' className='button' />
                         </form>
                         <div className="divider">
@@ -32,6 +55,10 @@ export default function Login() {
                                     <img src="/Github.png" alt="GitHub logo" className="auth-logo" />GitHub</button>
                             </div>
                         </div>
+                        <div className="switch-auth">
+                    <span>Don't have an account? </span>
+                    <a href="/register">Register here!</a>
+                </div>
                     </div>
                     <div className="auth-right">
                         <img src="/gameBanner.jpg" alt="gaming art" />

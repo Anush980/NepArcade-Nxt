@@ -140,6 +140,7 @@ input[type='submit']:hover {
     gap: 30px;
     align-items: center;
     margin-left: 18px;
+    margin-bottom: 10px;
 }
 
 
@@ -156,7 +157,21 @@ input[type='submit']:hover {
 .service-github:hover {
     background: #47516b;
 }
-
+.switch-auth{
+    padding-right: 80px;
+    text-align: center;
+    font-size: smaller;
+}
+.switch-auth span{
+    color:#0f3460;
+}
+.switch-auth a{
+    color:#59be3b;
+    transition: all 600ms ease;
+}
+.switch-auth a:hover{
+    text-decoration: underline;
+}
 
 .auth-right {
     max-width: 60%;
