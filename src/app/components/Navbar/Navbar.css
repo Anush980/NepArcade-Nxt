@@ -200,3 +200,9 @@
         display: none;
     }
 }
+
+@media (max-width: 568px) {
+    .search {
+        display: none;
+    }
+}

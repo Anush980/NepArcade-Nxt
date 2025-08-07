@@ -17,6 +17,7 @@
 
 
 @media (max-width: 768px) {
+
     .homepage {
         flex-direction: column;
     }
@@ -27,5 +28,11 @@
 
     .main-content {
         width: 100%;
+    }
+}
+
+@media (max-width: 568px) {
+    .banner {
+        margin-top: 15%;
     }
 }
