@@ -37,8 +37,6 @@ export default function Footer() {
                     <h3>Support</h3>
                     <ul>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
 
