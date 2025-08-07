@@ -1,11 +1,11 @@
 "use client";
 import styles from "./page.module.css";
-import Login from "./login/page";
+import MainPage from "./mainpage/page";
 
 export default function Home() {
   return (
   <>
-<Login/>
+<MainPage/>
   </>
   );
 }
