@@ -1,30 +1,9 @@
 const sidebarlinks = [
     {
-        title: "🎲 Boards Games",
+        title: "🎲 Board Games",
         links: [
             { label: "BhagChal", href: "/categories/board/bhagchal" },
             { label: "BudhiChal", href: "/categories/board/budhichal" }
-        ],
-    },
-    {
-        title: "🥊 Ation Games",
-        links: [
-            { label: "CyberPunk", href: "/categories/action/cyberpunk" },
-            { label: "Gun shooter", href: "/categroies/action/gunShooter" }
-        ],
-    },
-    {
-        title: "🧠 ind Games",
-        links: [
-            { label: "Chess", href: "/categories/mind/chess" },
-            { label: "Coding", href: "/categroies/mind/coding" }
-        ],
-    },
-    {
-        title: "🟡 Online Friends",
-        links: [
-            { label: "Friends", href: "/categories/board/bhagchal" },
-            { label: "Bot", href: "/categories/board/budhichal" }
         ],
     },
     {
@@ -38,28 +17,13 @@ const sidebarlinks = [
         title: "🧠 Mind Games",
         links: [
             { label: "Chess", href: "/categories/mind/chess" },
-            { label: "Coding", href: "/categroies/mind/coding" }
         ],
     },
     {
-        title: "🟡 OnlinFriends",
+        title: "🟡 Online Friends",
         links: [
-            { label: "Friends", href: "/categories/board/bhagchal" },
-            { label: "Bot", href: "/categories/board/budhichal" }
-        ],
-    },
-    {
-        title: "🧠 Mid Games",
-        links: [
-            { label: "Chess", href: "/categories/mind/chess" },
-            { label: "Coding", href: "/categroies/mind/coding" }
-        ],
-    },
-    {
-        title: "🟡 Online Frends",
-        links: [
-            { label: "Friends", href: "/categories/board/bhagchal" },
-            { label: "Bot", href: "/categories/board/budhichal" }
+            { label: "Hitler", href: "/l" },
+            { label: "Chinese human", href: "/" }
         ],
     },
 ]
