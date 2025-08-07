@@ -20,7 +20,7 @@ export async function POST(req) {
 
         await db.collection('users').insertOne({ email, password: hashedPassword });
 
-        return new Response(JSON.stringify({ message: 'User created' }), { status: 201 });
+        return new Response(JSON.stringify({ message: 'Registered. You can now SignIn.'}), { status: 201 });
     } catch (err) {
         console.error('Signup error:', err);
         return new Response(JSON.stringify({ message: 'Internal error' }), { status: 500 });

@@ -22,7 +22,7 @@ export async function POST(req) {
       return new Response(JSON.stringify({ message: 'Incorrect password' }), { status: 401 });
     }
 
-    return new Response(JSON.stringify({ message: 'Login successful' }), { status: 200 });
+    // return new Response(JSON.stringify({ message: 'Login successful' }), { status: 200 });
   } catch (err) {
     console.error('Login error:', err);
     return new Response(JSON.stringify({ message: 'Internal server error' }), { status: 500 });
