@@ -17,7 +17,7 @@ export default function MainPage() {
                 </nav>
                 <div class="auth-buttons">
                     <a href="/login" class="btn btn-login">Log In</a>
-                    <a href="/signup" class="btn btn-signup">Sign Up</a>
+                    <a href="/register" class="btn btn-signup">Sign Up</a>
                 </div>
             </header>
 
