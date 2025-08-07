@@ -172,3 +172,8 @@ input[type='submit']:hover {
 .switch-auth a:hover {
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .login-container {
+    margin-top: 8%;
+    }
+}
