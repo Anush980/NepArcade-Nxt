@@ -71,7 +71,7 @@ form {
     margin-top: 10px;
 }
 
-input[type='text'],
+input[type='email'],
 input[type='password'] {
     padding: 10px;
     border: 1px solid #4e4f74;
@@ -84,7 +84,7 @@ input[type='password'] {
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-input[type='text']:focus,
+input[type='email']:focus,
 input[type='password']:focus {
     outline: none;
     border-color: #5e6eff;
