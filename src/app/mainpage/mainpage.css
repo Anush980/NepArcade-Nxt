@@ -273,6 +273,9 @@ nav ul li a:hover {
     header {
         padding: 0.7rem 1rem;
     }
+    .hero {
+        height: 60vh;
+    }
     
     .auth-buttons {
         display: flex;

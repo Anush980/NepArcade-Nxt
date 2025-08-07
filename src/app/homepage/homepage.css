@@ -30,9 +30,3 @@
         width: 100%;
     }
 }
-
-@media (max-width: 568px) {
-    .banner {
-        margin-top: 15%;
-    }
-}

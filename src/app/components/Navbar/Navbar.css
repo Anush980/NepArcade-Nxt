@@ -165,7 +165,7 @@
         top: 0;
         left: -100%;
         /* Start off-screen */
-        width: 30%;
+        width: 50%;
         height: 100vh;
         border-radius: 5px;
         background: var(--menu-bg);

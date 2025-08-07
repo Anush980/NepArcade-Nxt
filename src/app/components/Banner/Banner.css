@@ -37,7 +37,7 @@
 
 @media (max-width: 768px) {
     .banner {
-        margin-top: 60px;
+        padding-block: 29vh;
     }
 
     .banner h2 {
