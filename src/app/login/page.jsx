@@ -60,11 +60,6 @@ export default function Login() {
                     <a href="/register">Register here!</a>
                 </div>
                     </div>
-                    <div className="auth-right">
-                        <img src="/gameBanner.jpg" alt="gaming art" />
-
-
-                    </div>
                 </div>
             </div>
         </>

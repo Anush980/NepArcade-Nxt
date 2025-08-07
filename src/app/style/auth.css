@@ -13,15 +13,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    max-width: 800px;
+    padding: 18px;
+    max-width: fit-content;
     margin: 3% auto;
     border: 1px solid #22254b;
     border-radius: 16px;
     background-color: rgba(15, 19, 53, 0.249);
     box-shadow: 0 8px 30px rgba(31, 38, 135, 0.37);
 }
-
 
 .inter-line {
     width: 100%;
@@ -32,15 +31,10 @@ body {
     flex-wrap: nowrap;
     padding: 20px 30px;
 }
-
-
-.auth-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 45%;
-    min-width: 48%;
-}
+ .inter-line .auth-left {
+        margin-left: 50px;
+        min-width: 100%;
+    }
 
 .auth-title {
     font-size: 2.5rem;
@@ -126,7 +120,6 @@ input[type='submit']:hover {
     flex: 1;
     border-bottom: 1px solid rgba(52, 74, 188, 0.5);
     margin: 0 10px;
-
 }
 
 .auth-logo {
@@ -138,14 +131,12 @@ input[type='submit']:hover {
 }
 
 .service {
-
     display: flex;
     gap: 30px;
     align-items: center;
     margin-left: 18px;
     margin-bottom: 10px;
 }
-
 
 .service-google,
 .service-github {
@@ -179,36 +170,4 @@ input[type='submit']:hover {
 
 .switch-auth a:hover {
     text-decoration: underline;
-}
-
-.auth-right {
-    max-width: 55%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.auth-right img {
-    width: 30vw;
-    height: 85vh;
-    border-radius: 14px;
-    object-fit: cover;
-    object-position: 80% 20%;
-    padding-right: 10px;
-}
-
-@media (max-width: 768px) {
-    .login-container {
-        max-width: fit-content;
-
-    }
-
-    .inter-line .auth-left {
-        margin-left: 30px;
-        min-width: 100%;
-    }
-
-    .auth-right img {
-        display: none;
-    }
 }

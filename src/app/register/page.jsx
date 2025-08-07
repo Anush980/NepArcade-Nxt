@@ -91,11 +91,6 @@ export default function Register() {
                             <a href="/login">Login here!</a>
                         </div>
                     </div>
-                    <div className="auth-right">
-                        <img src="/gameBanner.jpg" alt="gaming art" />
-
-
-                    </div>
                 </div>
             </div>
         </>
