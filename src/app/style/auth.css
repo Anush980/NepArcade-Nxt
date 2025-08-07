@@ -13,14 +13,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     max-width: 800px;
     margin: 3% auto;
     border: 1px solid #22254b;
     border-radius: 16px;
     background-color: rgba(15, 19, 53, 0.249);
     box-shadow: 0 8px 30px rgba(31, 38, 135, 0.37);
-    flex-direction: column; /* Optional: if you want content to stack on smaller screens */
 }
 
 
@@ -137,8 +136,9 @@ input[type='submit']:hover {
     object-fit: contain;
     vertical-align: middle;
 }
-.service{
-    
+
+.service {
+
     display: flex;
     gap: 30px;
     align-items: center;
@@ -152,27 +152,32 @@ input[type='submit']:hover {
     text-align: center;
     padding: 6px;
     background: #4d69752b;
-    border:1px solid rgba(128, 128, 128, 0.647);
+    border: 1px solid rgba(128, 128, 128, 0.647);
     border-radius: 7px;
     transition: 400ms background ease;
 }
+
 .service-google:hover,
 .service-github:hover {
     background: #47516b;
 }
-.switch-auth{
+
+.switch-auth {
     padding-right: 80px;
     text-align: center;
     font-size: smaller;
 }
-.switch-auth span{
-    color:#0f3460;
+
+.switch-auth span {
+    color: #bbcfe6;
 }
-.switch-auth a{
-    color:#59be3b;
+
+.switch-auth a {
+    color: #3ab0ff;
     transition: all 600ms ease;
 }
-.switch-auth a:hover{
+
+.switch-auth a:hover {
     text-decoration: underline;
 }
 
@@ -187,8 +192,23 @@ input[type='submit']:hover {
     width: 30vw;
     height: 85vh;
     border-radius: 14px;
-    /* box-shadow: rgba(23, 25, 39, 0.6) 0px 7px 29px 0px; */
     object-fit: cover;
     object-position: 80% 20%;
     padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        max-width: fit-content;
+
+    }
+
+    .inter-line .auth-left {
+        margin-left: 30px;
+        min-width: 100%;
+    }
+
+    .auth-right img {
+        display: none;
+    }
 }
