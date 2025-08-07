@@ -39,7 +39,7 @@ export default function Login() {
                             <span className='guide'>Enter your credentials to sign in</span>
                         </div>
                         <form method='POST' onSubmit={handleSubmit} >
-                            <input type='email' placeholder='Enter your Username' value={email} onChange={(e) => setEmail(e.target.value)} />
+                            <input type='email' placeholder='Enter your Email' value={email} onChange={(e) => setEmail(e.target.value)} />
                             <input type='password' placeholder='Enter your password' value={password} onChange={(e) => setPassword(e.target.value)} />
                             <input type='submit' value='Sign In' className='button' />
                         </form>

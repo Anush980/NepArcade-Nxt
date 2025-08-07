@@ -13,24 +13,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 800px;
+    padding: 30px;
+    max-width: 800px;
     margin: 3% auto;
     border: 1px solid #22254b;
     border-radius: 16px;
     background-color: rgba(15, 19, 53, 0.249);
     box-shadow: 0 8px 30px rgba(31, 38, 135, 0.37);
+    flex-direction: column; /* Optional: if you want content to stack on smaller screens */
 }
 
+
 .inter-line {
-    height: 470px;
-    width: 770px;
+    width: 100%;
     background: linear-gradient(90deg, rgba(38, 42, 66, 0.95), rgba(72, 61, 139, 0.85));
     color: #eee;
     border-radius: 12px;
     display: flex;
+    flex-wrap: nowrap;
     padding: 20px 30px;
 }
+
 
 .auth-left {
     display: flex;
@@ -174,17 +177,18 @@ input[type='submit']:hover {
 }
 
 .auth-right {
-    max-width: 60%;
+    max-width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .auth-right img {
-    width: 385px;
-    height: 445px;
+    width: 30vw;
+    height: 85vh;
     border-radius: 14px;
-    box-shadow: rgba(23, 25, 39, 0.6) 0px 7px 29px 0px;
+    /* box-shadow: rgba(23, 25, 39, 0.6) 0px 7px 29px 0px; */
     object-fit: cover;
     object-position: 80% 20%;
+    padding-right: 10px;
 }
