@@ -13,7 +13,7 @@
   --menu-bg: #06112ed1;
   --hover-bg: rgba(142, 140, 140, 0.599);
   --hero-bg: #0F0C12;
-  --bt-color: #027e7c;
+  --bg-color: #027e7c;
 }
 
 @media (prefers-color-scheme: dark) {

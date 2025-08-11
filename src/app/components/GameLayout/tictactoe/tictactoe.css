@@ -1,0 +1,64 @@
+:root {
+    --x-color: #d63031;
+    --o-color: #00b894;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.cell {
+    background-color: var(--cell-bg);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 0px 8px rgba(35, 120, 205, 0.622);
+
+}
+
+.cell:hover {
+    background-color: var(--hover-bg);
+    transform: translateY(-3px);
+}
+.cell.x::before,
+.cell.x::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 80%;
+    background-color: var(--x-color);
+    border-radius: 4px;
+}
+
+.cell.x::before {
+
+    transform: rotate(45deg);
+}
+
+.cell.x::after {
+    transform: rotate(-45deg);
+}
+.cell.o::before{
+    content: "";
+    position:absolute;
+    width:50%;
+    height: 50%;
+    border-radius: 50%;
+    border:7px solid var(--o-color);
+}

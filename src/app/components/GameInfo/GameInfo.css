@@ -1,0 +1,70 @@
+.game-title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.player-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.player-option {
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: var(--dark);
+  text-align: center;
+}
+
+.player-option.active {
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.player-option:hover {
+  transform: translateY(-3px);
+  background-color: var(--hover-bg);
+}
+
+.how-to-play {
+  background-color: var(--dark);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.how-to-play h2 {
+  margin-bottom: 15px;
+  color: var(--accent);
+}
+
+.how-to-play ol {
+  padding-left: 20px;
+}
+
+.how-to-play li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+@media (max-width:720px){
+  .game-title h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width:480px){
+    
+  .player-option {
+    padding: 12px;
+  }
+  
+  .how-to-play {
+    padding: 15px;
+  }
+}
