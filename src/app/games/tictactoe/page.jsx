@@ -13,7 +13,6 @@ export default function Gamepage() {
             <div className="game-container">
                 <div className="game-board-section">
                     <div className="board-container">
-                        <ScoreBoard />
                         <div className="game-status">Player X's turn</div>
                         <Tictactoe />
                         <div className="game-controls">

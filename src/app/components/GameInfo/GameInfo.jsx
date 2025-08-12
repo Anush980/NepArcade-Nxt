@@ -1,4 +1,5 @@
 'use client';
+import ScoreBoard from '../ScoreBoard/ScoreBoard';
 import './GameInfo.css';
 
 export default function GameInfo() {
@@ -7,6 +8,7 @@ export default function GameInfo() {
             <div className="game-title">
                 <h1>Tic Tac Toe</h1>
             </div>
+            <ScoreBoard />
             <div className="player-selection">
                 <div className="player-option active">
                     <h3>Play vs Computer</h3>

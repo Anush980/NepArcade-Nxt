@@ -15,7 +15,7 @@ body {
 }
 
 .game-board-section {
-  flex: 0 0 58%;
+  flex: 0 0 60%;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -35,15 +35,15 @@ body {
   padding: 20px;
   background-color: var(--header-bg);
   overflow-y: auto;
-  /* max-height: calc(100vh - 80px); */
+  max-height: calc(100vh - 80px);
 }
 
 .game-status {
   font-size: 1.2rem;
   margin: 15px 0;
   padding: 10px 20px;
-  background-color: var(--dark);
-  border-radius: 8px;
+  background-color: rgba(88, 88, 88, 0.242);
+  border-radius: 15px;
   color: var(--light);
   text-align: center;
 }
