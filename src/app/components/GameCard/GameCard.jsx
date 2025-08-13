@@ -2,7 +2,7 @@
 import Button from '../Button/Button';
 import './GameCard.css';
 
-export default function GameCard({ image, gameTitle, gameDuration, playerCount }) {
+export default function GameCard({ image, gameTitle, gameDuration, playerCount,onClick }) {
     return (
         <div className="game-card">
             <div className="game-image">
@@ -14,7 +14,7 @@ export default function GameCard({ image, gameTitle, gameDuration, playerCount }
                     <span>⏱️ {gameDuration}</span>
                     <span>👥 {playerCount}</span>
                 </div>
-                <Button label='Play Now' varient="exploreBtn" />
+        <Button label='Play Now' varient="exploreBtn" href={onClick} />
             </div>
         </div>
     );

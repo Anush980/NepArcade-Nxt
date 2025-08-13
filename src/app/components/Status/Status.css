@@ -1,0 +1,9 @@
+.game-status {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: rgba(88, 88, 88, 0.242);
+    border-radius: 8px;
+    color: var(--light);
+    text-align: center;
+}

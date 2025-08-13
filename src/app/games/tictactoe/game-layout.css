@@ -38,16 +38,6 @@ body {
   max-height: calc(100vh - 80px);
 }
 
-.game-status {
-  font-size: 1.2rem;
-  margin: 15px 0;
-  padding: 10px 20px;
-  background-color: rgba(88, 88, 88, 0.242);
-  border-radius: 15px;
-  color: var(--light);
-  text-align: center;
-}
-
 .game-controls {
   margin-top: 20px;
   width: 100%;
@@ -58,7 +48,11 @@ body {
 
 @media (max-width: 768px) {
   .game-container {
+    flex-direction: column;
     margin-top: 60px;
+  }
+  .game-info-section {
+    max-height: none;
   }
   
   .game-board-section,
@@ -70,7 +64,11 @@ body {
 
 @media (max-width: 480px) {
   .game-container {
-    margin-top: 50px;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .game-info-section {
+    max-height: none;
   }
   
 }

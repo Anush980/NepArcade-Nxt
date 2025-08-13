@@ -4,14 +4,16 @@ const gamecardData = [
         image: '/bhagchalLogo.png',
         gameTitle: 'Bhagchal',
         gameDuration: '30 min',
-        playerCount: '2 players'
+        playerCount: '2 players',
+        onClick: "/games/bhagchal",
     },
     {
         id: 2,
         image: '/ludoLogo.png',
         gameTitle: 'Ludo',
         gameDuration: '20 min',
-        playerCount: '2–4 players'
+        playerCount: '2–4 players',
+         onClick:"/games/ludo"
     },
 
     {
@@ -19,21 +21,24 @@ const gamecardData = [
         image: 'tictactoeLogo.png',
         gameTitle: 'TicTacToe',
         gameDuration: '2-5 min',
-        playerCount: '2 players'
+        playerCount: '2 players',
+         onClick:"/games/tictactoe"
     },
     {
         id: 4,
         image: '/budhichalLogo.jpg',
         gameTitle: 'Budhichal',
         gameDuration: '10-20 min',
-        playerCount: '2 players'
+        playerCount: '2 players',
+         onClick:"/games/budhichal"
     },
     {
         id: 5,
         image: '/carromLogo.png',
         gameTitle: 'Carrom',
         gameDuration: '15 min',
-        playerCount: '2–4 players'
+        playerCount: '2–4 players',
+         onClick:"/games/carrom"
     },
 
     {
@@ -41,7 +46,8 @@ const gamecardData = [
         image: '/chessLogo.png',
         gameTitle: 'Chess',
         gameDuration: '30-60 min',
-        playerCount: '2 players'
+        playerCount: '2 players',
+         onClick:"/games/chess"
     },
 
 

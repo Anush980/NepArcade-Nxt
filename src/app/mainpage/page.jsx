@@ -5,7 +5,7 @@ export default function MainPage() {
     return (
         <>
             <header>
-                <a href="/" className="logo">
+                <a href="/mainpage" className="logo">
                     <h2>NepArcade</h2>
                 </a>
                 <nav>

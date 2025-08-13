@@ -1,5 +1,5 @@
 'use client';
-import './tictactoe/tictactoe.css';
+import './tictactoe.css';
 
 export default function Tictactoe() {
     return (

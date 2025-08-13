@@ -12,7 +12,7 @@ export default function Banner() {
                 {banner_data.description}
             </p>
             <div className="button-container">
-                <Button label='Explore Games' varient='exploreBtn' />
+                <Button label='Explore Games' varient='exploreBtn' href="/games/tictactoe"/>
             </div>
         </div>
     );

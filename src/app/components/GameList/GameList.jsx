@@ -12,7 +12,8 @@ export default function GameList() {
                     image={game.image}
                     gameTitle={game.gameTitle}
                     gameDuration={game.gameDuration}
-                    playerCount={game.playerCount} />
+                    playerCount={game.playerCount} 
+                    onClick={game.onClick}/>
             ))}
         </div>
     );

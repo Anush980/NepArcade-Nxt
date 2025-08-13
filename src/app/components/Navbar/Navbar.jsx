@@ -33,7 +33,7 @@ export default function Navbar() {
 
                     {/* Logo */}
                     <div className="logo">
-                        <h1>NepArcade</h1>
+                        <a href="/homepage"><h1>NepArcade</h1></a>
                     </div>
                 </div>
 
