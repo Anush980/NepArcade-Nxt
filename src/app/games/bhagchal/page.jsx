@@ -1,5 +1,5 @@
 'use client';
-import Tictactoe from '@/app/components/GameLayout/tictactoe/tictactoe';
+import Tictactoe from '@/app/games/tictactoe/tictactoe';
 import Navbar from '@/app/components/Navbar/Navbar';
 import Button from '@/app/components/Button/Button';
 import '../game-layout.css';
