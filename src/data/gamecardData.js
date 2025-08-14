@@ -13,7 +13,7 @@ const gamecardData = [
         gameTitle: 'Ludo',
         gameDuration: '20 min',
         playerCount: '2–4 players',
-         onClick:"/games/ludo"
+        onClick: "/games/ludo"
     },
 
     {
@@ -22,7 +22,7 @@ const gamecardData = [
         gameTitle: 'TicTacToe',
         gameDuration: '2-5 min',
         playerCount: '2 players',
-         onClick:"/games/tictactoe"
+        onClick: "/games/tictactoe"
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const gamecardData = [
         gameTitle: 'Budhichal',
         gameDuration: '10-20 min',
         playerCount: '2 players',
-         onClick:"/games/budhichal"
+        onClick: "/games/budhichal"
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const gamecardData = [
         gameTitle: 'Carrom',
         gameDuration: '15 min',
         playerCount: '2–4 players',
-         onClick:"/games/carrom"
+        onClick: "/games/carrom"
     },
 
     {
@@ -47,7 +47,7 @@ const gamecardData = [
         gameTitle: 'Chess',
         gameDuration: '30-60 min',
         playerCount: '2 players',
-         onClick:"/games/chess"
+        onClick: "/games/chess"
     },
 
 

@@ -2,7 +2,7 @@
 import Tictactoe from '@/app/components/GameLayout/tictactoe/tictactoe';
 import Navbar from '@/app/components/Navbar/Navbar';
 import Button from '@/app/components/Button/Button';
-import './game-layout.css';
+import '../game-layout.css';
 import ScoreBoard from '@/app/components/ScoreBoard/ScoreBoard';
 import GameInfo from '@/app/components/GameInfo/GameInfo';
 import StatusDiv from '@/app/components/Status/Status';
